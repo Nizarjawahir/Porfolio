@@ -16,7 +16,7 @@
     #hb-nav{
         display: flex;
     }
-    #experience, .experience_details_container {
+    #experience, .experience_details_container{
         margin-top: 2rem;
     }
     .org_container{
@@ -25,15 +25,18 @@
     }
     #profile, .section-container{
         display: block;
-        block-size: auto;
     }
     
     .arrow{
         display: none;
     }
-    section, .section-container{
+    section{
         height: fit-content;
     }
+    #profile{
+        height: fit-content;
+    }
+    
     section{
         margin: 0 5%;
     }
@@ -45,22 +48,16 @@
     .about_container {
         margin-top: 0;
       }
-    /* #about{
-        margin-top: 12rem;
-    } */
+    
       
 }
 
 @media screen and (max-width: 600px){
-    /* #contact, footer{
-        height: 60vh;
-    } */
-    #profile{
-        height: 53vh;
-        margin-bottom: 8rem;
-    }
-    #about{
-        margin-top: 12rem;
+    
+
+    #profile, #contact{
+        height: fit-content;
+        
     }
     article, .article_org{
         font-size: 1rem;
