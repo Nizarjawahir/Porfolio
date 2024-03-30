@@ -33,7 +33,7 @@
     section{
         height: fit-content;
     }
-    #profile{
+    #profile, #contact{
         height: fit-content;
     }
     
