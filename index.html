@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Nizar</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+        <nav id="hb-nav">
+            <div class="logo">Nizar</div>
+             <div class="hb-menu">
+                <div class="hb-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>                
+                </div>
+                <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()" >About</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+                </div>
+             </div>
+        </nav>
+        <section id="profile">
+            <div class="section___pic-container">
+                <img src="assets/Profile_pic.jpeg" alt="profile picture" class="profile_picture"/>
+            </div>
+            <div class="profile_text">
+                <p class="profile_text_p1">Hello, I'm</p>
+                <h1 class="title">Nizar</h1>
+                <p class="profile_text_p2">Full stack developer</p>
+                        <div class="btn_container">
+                <button class="btn btn1" onclick="window.open('./assets/Nizarudeen_Resume.pdf')">Download CV</button>
+                <button class="btn btn2" onclick="location.href='./#contact'" > Contact info</button>
+            </div>
+            <div class="social">
+                <img src="./assets/104493_linkedin_icon.png" alt="Linkedin_profile" class="icon" onclick="window.open('https://www.linkedin.com/in/nizarudeen-pakkir-mohideen-735b94166')">
+                <img src="./assets/4747499_github_icon.png" alt="Github_profile" class="icon" onclick="window.open('https://www.github.com/Nizarjawahir/')">
+            </div>
+        </div>
+        </section>
+        <section id="about">
+            <p class="profile_text_p1">Get to know more</p>
+            <h1 class="title">About me</h1>
+        
+            <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about_pic.jpeg" alt="Badge_pic" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+            <div class="about_container">
+                <div class="details_container">
+                    <img src="./assets/Badge.png" alt="Experience icon" class="icon">
+                    <h3>Experience</h3>
+                    <li>Trained Full Stack developer</li>
+                    <li>Quality Analyst in BPO services</li>
+                </div>
+                <div class="details_container">
+                    <img src="./assets/Education.png" alt="Education icon" class="icon">
+                    <h3>Education</h3>
+                    <p>B.E., Mechanical Engineering</p>
+                </div>
+            </div>
+                <div class="text_container">
+                    <p>My career started in the automobile industry. I worked for three different companies as a short-term trainee, final inspector and handled data entry. Later, I shifted to Cognizant as a process executive for data. Handled confidential data, reviewed and processed on-boarding insurance providers. Later promoted to senior process executive for data and currently working as a quality analyst for the on-boarding process.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow_down.jpg" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+        </section>
+        <section id="experience">
+            <P class="profile_text_p1">Explore my</P>
+            <h1 class="title">Experience</h1>
+            
+            <div class="experience_details_container">
+               
+                <div class="about_container">
+                  
+                    <div class="details_container">
+                        <p>Trained and certified</p>
+                            <h2 class="experience_title"> Front end development</h2>
+                        <div class="article_container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience_icon" class="icon" >
+                                <div>
+                                    <h3>HTML</h3>
+                                    <P>Intermediate</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience_icon" class="icon">
+                                <div>
+                                    <h3>CSS</h3>
+                                    <P>Intermediate</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience_icon" class="icon">
+                                <div>
+                                    <h3>Java_Script</h3>
+                                    <P>Intermediate</P>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details_container">
+                        <p>Trained and certified</p>
+                        <h2 class="experience_title"> Back end development</h2>
+                    
+                        <div class="article_container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience_icon" class="icon">
+                                <div>
+                                    <h3>Node js</h3>
+                                    <P>Basic</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience_icon" class="icon">
+                                <div>
+                                    <h3>MangoDB</h3>
+                                    <P>Basic</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience_icon" class="icon">
+                                <div>
+                                    <h3>SQL</h3>
+                                    <P>Basic</P>
+                                </div>
+                            </article>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+                
+                <div class="org_container">
+                    <h2 class="experience_title"> Organization Experience</h2>
+                <div class="article_org">
+                    <img src="./assets/checkmark.png" alt="Experience_icon" class="icon" >
+                        <div>
+                            <h3>Cognizant technology solutions</h3>
+                            <P>2.5 years experienced in BPO services</P>
+                        </div>
+                    
+                    
+                        <img src="./assets/checkmark.png" alt="Experience_icon" class="icon">
+                        <div>
+                            <h3>Automobile Industries</h3>
+                            <P>3 years experience in various automobile industries</P>
+                        </div>
+                    
+                    </div>
+            </div>
+            
+            </div>
+            <img src="./assets/arrow_down.jpg" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+        </section>
+        <section id="projects">
+            <p class="profile_text_p1">Browse my recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience_details_container">
+                <div class="about_container">
+                <div class="details-container color-container">
+                    <div class="article_container">
+                        <img src="./assets/Form_validation.jpg" alt="Form validation" class="project_img">
+                    </div>
+                    <p class="title">Form Validation</p>
+                    <div class="btn_container">
+                        <button class="btn btn1 project-btn" onclick="location.href='https://github.com/Nizarjawahir/'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <img src="./assets/arrow_down.jpg" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+        </section>
+        <section id="contact">
+            <p class="profile_text_p1">Get in touch</p>
+            <h1 class="title">Contact me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/email_icon.png" alt="email icon" class="icon contact-icon" >
+                    <p><a href="mailto:nizar.jawahir@gmail.com">nizar.jawahir@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="./assets/104493_linkedin_icon.png" alt="Linkedin icon" class="icon contact-icon">
+                    <p><a href="https://www.linkedin.com/in/nizarudeen-pakkir-mohideen-735b94166">LinkedIn/nizar_jawahir</a></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                </div>
+            </nav>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>
