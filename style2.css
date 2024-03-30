@@ -57,7 +57,7 @@
 
     #profile, #contact{
         height: fit-content;
-        
+        margin-bottom: 2rem;        
     }
     article, .article_org{
         font-size: 1rem;
