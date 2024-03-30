@@ -42,12 +42,14 @@ nav{
 a{
     color: black;
     text-decoration: none;
+    text-decoration-color: white;
 }
 
 a:hover{
     color: gray;
     text-decoration: underline;
     text-underline-offset: 0.5rem;
+    text-decoration-color: rgb(181, 181, 181);
 }
 
 .logo{
@@ -135,12 +137,12 @@ section {
     min-height: fit-content;
   }
 
-#profile{
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
-    height: 80vh;
-}
+    #profile{
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        height: 80vh;
+    }
 
 .section__pic-container{
     display: flex;
@@ -150,7 +152,7 @@ section {
    
 }
 .profile_picture{
-    border-radius: 20rem;
+    border-radius: 50%
     
 }
 .profile_text{
@@ -305,8 +307,15 @@ article{
     margin-top: 1rem;
 }
 
-
+.exp{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
 article .icon{
+    cursor: default;
+}
+.org_container .icon{
     cursor: default;
 }
 
