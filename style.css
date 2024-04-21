@@ -179,7 +179,7 @@ margin-bottom: 1rem;
     display: flex;
     justify-content: center;
     margin-top: 1rem;
-    gap: 1rem;
+    gap: 2rem;
 }
 .icon{
     cursor: pointer;
@@ -296,6 +296,22 @@ article{
     text-align: center;
     margin-top: 3rem;
 }
+.about_container2{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    justify-content: center;
+    align-self: center;
+    }
+.details_container2{
+    text-align: center; 
+    font-weight: 600;
+}
+.project-btn{
+    margin-top: 1.5rem;
+}
 
 .article_org{
     display: flex;
@@ -327,8 +343,8 @@ article .icon{
 
 .project_img{
     border-radius: 2rem;
-    width: 45%;
-    height: 45%;
+    width: 75%;
+    height: 75%;
 }
 
 /* contact */
